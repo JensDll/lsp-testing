@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "ESNext",
+    "allowJs": true,
+    "checkJs": false,
+    "lib": ["ESNext"],
+    "downlevelIteration": true,
+    "isolatedModules": true,
+    "strict": false,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "paths": {
+      "lsp-sample-client": ["packages/client/src"],
+      "lsp-sample-server": ["packages/server/src"],
+      "lsp-sample-utils": ["packages/utils/src"]
+    }
+  },
+  "include": ["packages/*/src", "scripts", "types"]
+}
